@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+div{
+    border: 1px dashed rgb(3, 82, 252);
+    padding: 20px;
+    margin-bottom: 20px;
+}
