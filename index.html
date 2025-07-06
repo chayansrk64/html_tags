@@ -11,6 +11,8 @@
     <title>HTML Tags</title>
 
     <link rel="stylesheet" href="styles/style.css" />
+    <script src="script.js" defer></script>
+
   </head>
 
 
@@ -148,8 +150,107 @@
         </div>
     </div>
 
+    <!-- bold -->
+    <div style="border: 1px dashed green;">
+        <h2>bold</h2>
+        <div>
+            <p>bold</p>
+            <p>This is a <b>bold</b> text.</p>
+            <p>This is a <strong>strong</strong> text.</p>
+        </div>  
+    </div>
+
+    <!-- bdo -->
+    <div style="border: 1px dashed green;">
+        <h2>bdo</h2>
+        <div>
+            <p>BDO stands for Bi-Directional Override.</p>
+             <bdo dir="rtl"> This text will appear right-to-left </bdo>
+         </div>
+    </div>
+
+    <!-- blockquote -->
+    <div style="border: 1px dashed green;">
+        <h2>blockquote</h2>
+        <div>
+            <p>blockquote</p>
+            <blockquote cite="http://www.worldwildlife.org/who/index.html">
+                For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+            </blockquote>
+
+            <q>Use &lt;q&gt; for inline (short) quotations</q>
+
+        </div>
+    </div>
 
 
+    <!-- br -->
+    <div style="border: 1px dashed green;">
+        <h2>br</h2>
+        <div>
+            <p>br</p>
+            <p>To force<br> line breaks<br> in a text,<br> use the br<br> element.</p>
+        </div>
+    </div>
+
+    <!-- button -->
+    <div style="border: 1px dashed green;">
+        <h2>button</h2>
+        <div>
+            <p>button</p>
+             
+             <button type="button" name="click_btn" onclick="alert('button clicked!')" >Click Me!</button>
+             <button type="reset" value="Reset">Reset</button>
+             <button type="submit" onclick="alert('submitted!')" >Submit</button>
+        </div> 
+    </div>
+
+
+    <!-- canvas -->
+    <div style="border: 1px dashed green;">
+        <h2>canvas</h2>
+        <div>
+            <p>canvas</p>
+            <canvas id="myCanvas">
+                
+            </canvas>
+            
+        </div>
+    </div>
+
+
+    <!-- caption -->
+    <div style="border: 1px dashed green;">
+        <h2>caption</h2>
+        <div>
+            <p>caption</p>
+            <table border="1">
+                <caption>Table Caption</caption>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>25</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- cite -->
+    <div style="border: 1px dashed green;">
+        <h2>cite</h2>
+        <div>
+            <p>cite</p>
+            <p>To reference a book, article, or other work, use the <cite> element.</p>
+            <p><cite>The Great Gatsby</cite> is a novel written by F. Scott Fitzgerald.</p>
+        </div>
+    </div>
 
   </body>
 </html>
